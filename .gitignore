@@ -3,3 +3,6 @@ blank.html
 
 # Ignore all .txt files. They are just text and not needed for the website.
 *.txt
+
+# Ignore .csv files. They contain the programs in table format
+*.csv
