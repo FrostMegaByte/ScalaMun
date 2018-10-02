@@ -1,0 +1,340 @@
+* /* #5a92e8 */
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	font-family: Arial, sans-serif;
+	/*background: LightGrey;*/
+	background-image: url("../afbeeldingen/background.png");
+	background-size: length;
+}
+
+h2
+{
+	color: #1f6ce0;
+	font-size: 2.3em;
+	margin-bottom: 5px;
+}
+
+h3
+{
+	color: black;
+	font-size: 1.6em;
+	margin-bottom: 5px;
+}
+
+h4
+{
+	color: #1f6ce0;
+	font-size: 1.2em;
+	margin-bottom: 5px;
+}
+
+p
+{
+	font-size: 1.1em;
+}
+
+a
+{
+	text-decoration: underline;
+	color: #5a92e8; /*#f4256d*/
+}
+
+/*--------------------------------------------------------------
+General Layout
+--------------------------------------------------------------*/
+
+.center
+{
+	margin-left: auto;
+  margin-right: auto;
+	max-width: 1200px;
+	padding-left: 40px;
+  padding-right: 40px;
+}
+
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+
+.site-header
+{
+	margin-bottom: 20px;
+}
+
+.hd-top
+{
+	background: #1f6ce0; /*#D60B52*/
+	height: 80px;
+}
+
+.site-title
+{
+	font-size: 250%;
+	color: white;
+	float: left;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+.site-title a
+{
+	text-decoration: none;
+	color: white;
+}
+
+.site-logo
+{
+	float: right;
+	display: block;
+	margin-top: auto;
+}
+
+.site-slogan
+{
+	font-size: 150%;
+	color: white;
+	float: right;
+	margin-right: 5%;
+	vertical-align: middle;
+	line-height: 80px;
+}
+
+.hd-bottom
+{
+	background: #5a92e8; /*#f4256d*/
+	height: 50px;
+}
+
+/*--------------------------------------------------------------
+Navigation Menu
+--------------------------------------------------------------*/
+.menu
+{
+	list-style: none;
+}
+
+.menu li
+{
+	float: left;
+}
+
+.menu a
+{
+	display: block;
+	text-decoration: none;
+	height: 20px;
+	vertical-align: middle;
+	line-height: 20px;
+	padding: 15px;
+	font-weight: bold;
+	font-size: 1.2em;
+	background: #5a92e8;
+	color: white;
+}
+
+.menu a:hover
+{
+	background-color: #357be3; /*#f20d5d*/
+}
+
+.menu li:hover ul
+{
+	display: block;
+	position: absolute;
+}
+
+.submenu ul
+{
+	display: none;
+	background-color: #5a92e8; /*#f4256d*/
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.submenu li
+{
+	float: none;
+}
+
+/*--------------------------------------------------------------
+Mobile Navigation Menu
+--------------------------------------------------------------*/
+
+.handle
+{
+	width: 100%;
+	background: #1c61ca; /*#c20a4a*/
+	cursor: pointer;
+	color: white;
+	height: 40px;
+	display: none;
+}
+
+.handle-text
+{
+	color: white;
+	float: left;
+	vertical-align: middle;
+	line-height: 50px;
+	font-size: 2em;
+	margin-left: 20px;
+}
+
+.hamburger-menu
+{
+	float: right;
+	color: white;
+	font-size: 2em;
+	vertical-align: middle;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+/*--------------------------------------------------------------
+Page Content
+--------------------------------------------------------------*/
+.site-content
+{
+	float: none;
+}
+
+.primary
+{
+	float: left;
+	width: 66%;
+}
+
+.primary-inner
+{
+	margin-right: 40px;
+}
+
+article
+{
+	background-color: rgba(255,255,255,0.8);
+	padding: 20px 40px;
+	border-radius: 7px;
+}
+
+.secondary article
+{
+	padding: 20px 20px;
+	background-color: rgba(255,255,255,0.8);
+}
+
+.secondary
+{
+	float: right;
+	width: 33%;
+}
+
+.logo
+{
+	float: right;
+	width: 25%;
+}
+
+.chair
+{
+	height: 150px;
+	float: right;
+	margin-left: 15px;
+	border-radius: 4px;
+}
+
+.group-portrait
+{
+	height: 350px;
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 4px;
+}
+
+.portrait
+{
+	height: 200px;
+	float: right;
+	margin-top: 35px;
+	margin-left: 15px;
+	border-radius: 4px;
+}
+
+.empty
+{
+	clear: both;
+}
+
+/* ScalaMUN Timetable */
+.time-table table, .time-table th, .time-table td
+{
+	border: black 1px solid;
+	border-collapse: collapse;
+}
+
+.time-table td, .time-table th
+{
+	padding: 3px;
+}
+
+.time-table th
+{
+	background-color: #5a92e8;
+	color: white;
+}
+
+.timetable-date
+{
+	font-size: 130%;
+}
+
+/* ScalaMUN Country Division */
+.country-division table, .country-division th, .country-division td
+{
+	border: black 1px solid;
+	border-collapse: collapse;
+}
+
+.country-division td, .country-division th
+{
+	padding: 3px;
+}
+
+.country-division th
+{
+	background-color: #5a92e8;
+	color: white;
+}
+
+/*--------------------------------------------------------------
+Footer
+--------------------------------------------------------------*/
+
+.site-footer
+{
+	margin-top: 20px;
+	color: white;
+	padding: 20px 0;
+	background: #357be3; /*#D60B52*/
+	font-size: 90%;
+	text-align: center;
+	clear: both;
+}
+
+.site-footer a
+{
+	text-decoration: none;
+	color: white
+}
+
+.site-footer a:hover
+{
+	text-decoration: underline;
+}
