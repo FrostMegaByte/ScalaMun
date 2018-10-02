@@ -1,135 +1,108 @@
 /*--------------------------------------------------------------
 Navigation Menu
 --------------------------------------------------------------*/
-@media screen and (max-width: 730px)
-{	
-	.menu
-	{
-		display: none;
-	}
-	
-	.menu li
-	{
-		width: 100%;
-	}
-	
-	.submenu li
-	{
-		display: inline-block;
-	}
-	
-	.handle
-	{
-		display: table;
-	}	
+@media screen and (max-width: 730px) {
+  .menu {
+    display: none;
+  }
+
+  .menu li {
+    width: 100%;
+  }
+
+  .submenu li {
+    display: inline-block;
+  }
+
+  .handle {
+    display: table;
+  }
 }
 
-@media screen and (min-width:731px) 
-{	
-	.menu
-	{ 
-		display: block !important; 
-	}		
+@media screen and (min-width:731px) {
+  .menu {
+    display: block !important;
+  }
 }
 
 /*--------------------------------------------------------------
 General Layout
 --------------------------------------------------------------*/
-@media screen and (max-width: 960px)
-{
-	.center
-	{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-  
-	.hd-bottom .center
-	{
-		padding-left: 0px;
-		padding-right: 0px;
-		margin-left: 20px;
-	}
+@media screen and (max-width: 960px) {
+  .center {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-	body .primary-inner 
-	{
-		margin-right: 20px;
-	}
+  .hd-bottom .center {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 20px;
+  }
+
+  body .primary-inner {
+    margin-right: 20px;
+  }
 }
 
-@media screen and (max-width: 850px)
-{
-	body .primary-inner
-	{
-		margin-right: 0px;
-	}
+@media screen and (max-width: 850px) {
+  body .primary-inner {
+    margin-right: 0px;
+  }
 
-	body .primary, body .secondary
-	{
-		width: auto;
-		float: none;
-	}
-	
-	body .secondary
-	{
-		margin-top: 20px;
-	}
-	
-	.logo
-	{
-		display: none;
-	}
+  body .primary, body .secondary {
+    width: auto;
+    float: none;
+  }
+
+  body .secondary {
+    margin-top: 20px;
+  }
+
+  .logo {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 730px)
-{	
-	.site-header
-	{
-		margin-bottom: 0;
-	}
-	
-	.site-footer
-	{
-		margin-top: 0;
-	}
-	
-	.hd-bottom .center
-	{
-		margin-left: 0px;
-	}
-	
-	body .site-content .center
-	{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	
-	article
-	{
-		border-radius: 0;
-	}
-	
-	.chair
-	{
-		float: none;
-		margin: 10px;
-		/*display: block;
+@media screen and (max-width: 730px) {
+  .site-header {
+    margin-bottom: 0;
+  }
+
+  .site-footer {
+    margin-top: 0;
+  }
+
+  .hd-bottom .center {
+    margin-left: 0px;
+  }
+
+  body .site-content .center {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  article {
+    border-radius: 0;
+  }
+
+  .chair {
+    float: none;
+    margin: 10px;
+    /*display: block;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-left: auto;
 		margin-right: auto;*/
-	}
-	
-	.logo
-	{
-		width: 50%;
-	}
-	
+  }
+
+  .logo {
+    width: 50%;
+  }
 }
 
-@media screen and (max-width: 580px)
-{
-	.site-slogan
-	{
-		display: none;
-	}
+@media screen and (max-width: 580px) {
+  .site-slogan {
+    display: none;
+  }
 }
