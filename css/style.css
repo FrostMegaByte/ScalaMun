@@ -138,6 +138,7 @@ Navigation Menu
   font-size: 1em;
   font-weight: bold;
   list-style: none;
+  z-index: 99;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
